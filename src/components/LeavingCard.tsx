@@ -83,6 +83,18 @@ const LeavingCard = () => {
 			message: "Ms here",
 			timestamp: 1699890123000,
 		},
+		{
+			name: "Bibi",
+			role: "MK JS Guru for Trileche delivery",
+			message:
+				"The door in MK will always be open for you, " +
+				"and you are more than welcome back any time you find yourself heading" +
+				" this way. Lets keep in touch. I will drop you a message now and then." +
+				" Wishing you a well-deserved break and a brilliant new chapter ahead." +
+				" Take care, and all the best on your next adventure!" +
+				" Straight from MK to Glasgow spirit.",
+			timestamp: 1699890123003,
+		},
 	];
 
 	if (isLoading) {
