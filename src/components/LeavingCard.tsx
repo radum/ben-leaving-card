@@ -72,16 +72,18 @@ const LeavingCard = () => {
 
 	const signatures: Signature[] = [
 		{
-			name: "Radu Micu",
+			name: "Radu",
 			role: "Benevolent dictator of vanilla JS",
-			message: "Msg here.",
-			timestamp: 1699876543000,
+			message:
+				"God damn it was great working with you Ben. Gonna miss the banter and your wit! I'm sure will find myself thinking what would Ben say about this or that. Also gonna miss your tech insights as pure as a baritone singing :P. Whishing you all the best in your next adventure my friend! 💚",
+			timestamp: 1763481390,
 		},
 		{
 			name: "Jon T",
 			role: "Chief Trombone Officer of pre fax age",
-			message: "Ms here",
-			timestamp: 1699890123000,
+			message:
+				"Ben, you're always running here and there (here and there) / You feel you're not wanted anywhere (anywhere) / If, you ever look behind / And don't like what you find / There's something you should know - / I’m always up for a pint if you’re in town, don’t be a stranger, yea? / Cheers lad",
+			timestamp: 1763481390,
 		},
 		{
 			name: "Bibi",
@@ -93,7 +95,28 @@ const LeavingCard = () => {
 				" Wishing you a well-deserved break and a brilliant new chapter ahead." +
 				" Take care, and all the best on your next adventure!" +
 				" Straight from MK to Glasgow spirit.",
-			timestamp: 1699890123003,
+			timestamp: 1763475725003,
+		},
+		{
+			name: "Hadrian",
+			role: "Backender at the wrong party",
+			message:
+				"It's been great working with you Ben. Hope we get to work together in the future. All the best!",
+			timestamp: 1763481390,
+		},
+		{
+			name: "Peter B",
+			role: "Undercover retro computing advocate",
+			message:
+				"Ben you are officially my Buddy. It was good to chat to you in those early days when I first joined K+C. Little did I know it was also the twilight days of K+C!",
+			timestamp: 1763481390,
+		},
+		{
+			name: "Hannah",
+			role: "Delivery wizard",
+			message:
+				"Hey Ben, it has been so lovely getting to work alongside you in the Edinburgh office. You were so welcoming when Forecast invaded and it's been great getting to know you and hear about your theatre stuff. All the best. Hannah",
+			timestamp: 1763481390,
 		},
 	];
 
@@ -384,7 +407,7 @@ const LeavingCard = () => {
 								</p>
 							</div>
 
-							<div className="space-y-3 max-h-80 overflow-y-auto pr-2">
+							<div className="space-y-3 max-h-80 overflow-y-auto pr-2 nice-scrollbar">
 								{signatures.map((sig, idx) => (
 									<div
 										key={idx}
