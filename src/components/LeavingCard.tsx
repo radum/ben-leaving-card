@@ -407,21 +407,21 @@ const LeavingCard = () => {
 													{sig.role}
 												</p>
 											</div>
-											<p className="text-comment text-xs font-mono whitespace-nowrap">
+											{/* <p className="text-comment text-xs font-mono whitespace-nowrap">
 												{
 													new Date(sig.timestamp)
 														.toISOString()
 														.split("T")[0]
 												}
-											</p>
+											</p> */}
 										</div>
 										<p className="text-terminal/90 text-sm leading-relaxed break-words">
 											"{sig.message}"
 										</p>
-										<p className="text-comment text-xs font-mono">
+										{/* <p className="text-comment text-xs font-mono">
 											// Unix:{" "}
 											{Math.floor(sig.timestamp / 1000)}
-										</p>
+										</p> */}
 									</div>
 								))}
 							</div>
