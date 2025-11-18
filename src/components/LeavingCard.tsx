@@ -97,6 +97,12 @@ const LeavingCard = () => {
 				"Ben you are officially my Buddy. It was good to chat to you in those early days when I first joined K+C. Little did I know it was also the twilight days of K+C!",
 			timestamp: 1763481390,
 		},
+		{
+			name: "Hannah",
+			role: "Delivery wizard",
+			message: "Hey Ben, it has been so lovely getting to work alongside you in the Edinburgh office. You were so welcoming when Forecast invaded and it's been great getting to know you and hear about your theatre stuff. All the best. Hannah",
+			timestamp: 1763481390,
+		}
 	];
 
 	if (isLoading) {
