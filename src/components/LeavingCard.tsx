@@ -145,6 +145,12 @@ const LeavingCard = () => {
 				" Straight from MK to Glasgow spirit.",
 			timestamp: 1763475725003,
 		},
+		{
+  			name: "Kosta",
+  			role: "The actions guy",
+  			message: "It’s been great working with you on the 423 project. You’ve always been professional, dedicated, and incredibly knowledgeable, yet still down-to-earth and fun to work with. I really enjoyed the time we spent in London with the team. Wishing you all the best in your next chapter — and let’s definitely stay in touch.",
+  			timestamp: 1763568000,
+		}
 	];
 
 	if (isLoading) {
