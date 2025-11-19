@@ -102,6 +102,12 @@ const LeavingCard = () => {
 			role: "Delivery wizard",
 			message: "Hey Ben, it has been so lovely getting to work alongside you in the Edinburgh office. You were so welcoming when Forecast invaded and it's been great getting to know you and hear about your theatre stuff. All the best. Hannah",
 			timestamp: 1763481390,
+		},
+		{
+			name: "Yan",
+			role: "FE Dev Squad and anonymous admirer",
+			message: "Ben, I'll miss you very much, and I truly hope our paths cross again in the future. Wishing you all the best on your next adventure: may it be fun, productive, and incredibly fulfilling!  - Yan",
+			timestamp: 1763481390,
 		}
 	];
 
