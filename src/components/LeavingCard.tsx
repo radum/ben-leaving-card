@@ -74,13 +74,15 @@ const LeavingCard = () => {
 		{
 			name: "Radu",
 			role: "Benevolent dictator of vanilla JS",
-			message: "God damn it was great working with you Ben. Gonna miss the banter and your wit! I'm sure will find myself thinking what would Ben say about this or that. Also gonna miss your tech insights as pure as a baritone singing :P. Whishing you all the best in your next adventure my friend! 💚",
+			message:
+				"God damn it was great working with you Ben. Gonna miss the banter and your wit! I'm sure will find myself thinking what would Ben say about this or that. Also gonna miss your tech insights as pure as a baritone singing :P. Whishing you all the best in your next adventure my friend! 💚",
 			timestamp: 1763481390,
 		},
 		{
 			name: "Jon T",
 			role: "Chief Trombone Officer of pre fax age",
-			message: "Ben, you're always running here and there (here and there) / You feel you're not wanted anywhere (anywhere) / If, you ever look behind / And don't like what you find / There's something you should know - / I’m always up for a pint if you’re in town, don’t be a stranger, yea? / Cheers lad",
+			message:
+				"Ben, you're always running here and there (here and there) / You feel you're not wanted anywhere (anywhere) / If, you ever look behind / And don't like what you find / There's something you should know - / I’m always up for a pint if you’re in town, don’t be a stranger, yea? / Cheers lad",
 			timestamp: 1763481390,
 		},
 		{
@@ -100,9 +102,17 @@ const LeavingCard = () => {
 		{
 			name: "Hannah",
 			role: "Delivery wizard",
-			message: "Hey Ben, it has been so lovely getting to work alongside you in the Edinburgh office. You were so welcoming when Forecast invaded and it's been great getting to know you and hear about your theatre stuff. All the best. Hannah",
+			message:
+				"Hey Ben, it has been so lovely getting to work alongside you in the Edinburgh office. You were so welcoming when Forecast invaded and it's been great getting to know you and hear about your theatre stuff. All the best. Hannah",
 			timestamp: 1763481390,
-		}
+		},
+		{
+			name: "Andy R",
+			role: "A no trick pony",
+			message:
+				"I cannot believe you've never had the misfortune of having to work with me. Your decency shine through. I wish you all the very best, wherever your journey takes you. Take care, Andy",
+			timestamp: 1763547905,
+		},
 	];
 
 	if (isLoading) {
@@ -270,8 +280,8 @@ const LeavingCard = () => {
 												snippet.type === "error"
 													? "text-error text-sm"
 													: snippet.type === "warning"
-													? "text-warning text-sm"
-													: "text-comment text-sm"
+														? "text-warning text-sm"
+														: "text-comment text-sm"
 											}
 										>
 											{snippet.code}
@@ -348,7 +358,7 @@ const LeavingCard = () => {
 									onClick={() => {
 										terminalSounds.playButtonClick();
 										console.log(
-											"git commit -m 'goodbye world'"
+											"git commit -m 'goodbye world'",
 										);
 									}}
 								>
@@ -360,7 +370,7 @@ const LeavingCard = () => {
 									onClick={() => {
 										terminalSounds.playWarningBeep();
 										console.log(
-											"npm uninstall human-developer"
+											"npm uninstall human-developer",
 										);
 									}}
 								>
