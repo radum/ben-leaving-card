@@ -145,6 +145,12 @@ const LeavingCard = () => {
 				" Straight from MK to Glasgow spirit.",
 			timestamp: 1763475725003,
 		},
+		{
+			name: "Ruaridh",
+			role: "Occasional Edinburgh Office Frequenter",
+			message: "Been a pleasure working with you! All the best for whatever comes next!",
+			timestamp: 1763475725003,
+		},
 	];
 
 	if (isLoading) {
