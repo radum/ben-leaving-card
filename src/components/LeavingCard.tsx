@@ -114,6 +114,12 @@ const LeavingCard = () => {
 			role: "Accidental Front-End Developer",
 			message: "It’s been a pleasure working with you, mate. Thanks for all your support over the years — wishing you all the very best in your next chapter!",
 			timestamp: 1763481390,
+		},
+		{
+			name: "Mark Taylor",
+			role: "Struggling Python Developer",
+			message: "Ben, it has been great working with you over the last few years, I have really enjoyed your leadership style with the web practice and have unashabably stolen many of your ideas for the backend practice. It has also been great working with you on 423, we have delivered a lot on that project and it has been good to have your support through the ups and downs of it. Good luck and keep in touch!",
+			timestamp: 1763570580
 		}
 	];
 
