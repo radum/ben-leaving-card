@@ -169,6 +169,12 @@ const LeavingCard = () => {
 			message:
 				"Hey Ben, congrats on your imminent escape! I always enjoyed chatting with you in the web practice meetings, although we sadly never had the chance to work together on a project. Wishing you a relaxing break, and the best of luck for whatever comes next. Cheers!",
 			timestamp: 1763588066,
+		},
+		{
+			name: "Denis",
+			role: "I’m bad at goodbyes",
+			message: "Ben, you are a one-man army and you excel at everything that you do. I've learned so much from you while working on KCOM and 423, and I’ll be forever thankful for that! It’s been an absolute pleasure and I wish you nothing but the best! If you ever visit Bulgaria, let me know!",
+			timestamp: 1763568000,
 		}
 	];
 
