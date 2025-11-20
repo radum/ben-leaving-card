@@ -151,6 +151,25 @@ const LeavingCard = () => {
 			message: "Been a pleasure working with you! All the best for whatever comes next!",
 			timestamp: 1763475725003,
 		},
+		{
+			name: "Mark Taylor",
+			role: "Struggling Python Developer",
+			message: "Ben, it has been great working with you over the last few years, I have really enjoyed your leadership style with the web practice and have unashabably stolen many of your ideas for the backend practice. It has also been great working with you on 423, we have delivered a lot on that project and it has been good to have your support through the ups and downs of it. Good luck and keep in touch!",
+			timestamp: 1763570580
+		},
+		{
+  			name: "Kosta",
+  			role: "The actions guy",
+  			message: "It’s been great working with you on the 423 project. You’ve always been professional, dedicated, and incredibly knowledgeable, yet still down-to-earth and fun to work with. I really enjoyed the time we spent in London with the team. Wishing you all the best in your next chapter — and let’s definitely stay in touch.",
+  			timestamp: 1763568000,
+		},
+		{
+			name: "James H",
+			role: "Lost Soul",
+			message:
+				"Hey Ben, congrats on your imminent escape! I always enjoyed chatting with you in the web practice meetings, although we sadly never had the chance to work together on a project. Wishing you a relaxing break, and the best of luck for whatever comes next. Cheers!",
+			timestamp: 1763588066,
+		}
 	];
 
 	if (isLoading) {
